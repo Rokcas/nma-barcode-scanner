@@ -52,5 +52,5 @@ public class Program
                 // Configure the app here.
             })
             .UseStartup<Startup>()
-            .UseUrls("http://*:6969");
+            .UseUrls("http://*:16969");
 }
