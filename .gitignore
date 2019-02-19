@@ -31,7 +31,7 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
-artifacts
+artifacts/
 
 # Visual Studio 2015
 .vs/
