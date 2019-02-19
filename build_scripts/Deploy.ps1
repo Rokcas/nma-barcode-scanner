@@ -1,8 +1,8 @@
 $ErrorActionPreference = "Stop"
 
-$serviceFolder = "C:\Services\Beno"
-$serviceName = "BenoBarcodeScanner"
-$artifactsFolder = "package"
+$serviceFolder = "C:\Services\Roko"
+$serviceName = "RokoBarcodeScanner"
+$artifactsFolder = "modestas"
 
 Remove-Item $serviceFolder -Recurse -ErrorAction Ignore
 Copy-Item $artifactsFolder -Destination $serviceFolder -Recurse
