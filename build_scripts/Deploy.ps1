@@ -4,8 +4,8 @@ $serviceFolder = "C:\Services\Roko"
 $serviceName = "RokoBarcodeScanner"
 $artifactsFolder = "modestas\*"
 
-If((Test-Path $serviceFolder) -ne $true) {
-    New-Item $serviceFolder
+If((Test-Path $artifactsFolder) -ne $true) {
+    New-Item $artifactsFolder      
 }
 
 Copy-Item $artifactsFolder $serviceFolder
